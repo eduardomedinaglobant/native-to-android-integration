@@ -1,0 +1,26 @@
+#######################################################
+
+Android
+./gradlew :httplibrary:clean assembleRelease
+
+#######################################################
+Nativescript
+
+https://github.com/NativeScript/android-dts-generator
+https://github.com/NativeScript/plugin-seed
+
+java -jar build/libs/dts-generator.jar -input .../aar/httplibrary-release/classes.jar
+
+--------------------------------------------------------
+
+npm i -g nativescript@8.0
+
+npm --version
+
+nativescript --version
+
+npm run add httplibrary
+
+npm start
+
+apps.demo.android (Vanilla)
